@@ -20,7 +20,7 @@ Usage
 The following example fetches the information of an app by API token:
 
 ```javascript
-var kintone = require('kintone');
+var kintone = require('kintone-vx');
 
 var token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 var api = new kintone('example.cybozu.com', { token: token });
