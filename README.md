@@ -11,7 +11,7 @@ Installation
 Install via [npm](https://www.npmjs.com/package/kintone-vx)
 
 ```
-npm install kintone-vx
+npm install kintone-vx --save
 ```
 
 Usage
