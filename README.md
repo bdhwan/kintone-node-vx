@@ -1,7 +1,9 @@
 Node-kintone
 ============
 
-A Node.js wrapper for kintone API.
+A Node.js wrapper for kintone API. from original kintone sdk (https://www.npmjs.com/package/kintone)
+added upload, download file function
+
 
 Installation
 ------------
@@ -52,6 +54,33 @@ var api = new kintone('example.cybozu.com', {
     }
 });
 ```
+
+
+Upload file 
+```javascript
+api.file.post(filePath, function(fileErr, fileRes) {
+    if (fileErr) {
+      //error upload file                
+    } else {
+       var fileKey = fileRes.fileKey;
+      //complete upload file
+    }
+});
+```
+
+
+
+Donwload file 
+```javascript
+api.file.get(fileKey, savePath, function(err, result) {
+    if (err) {
+      //error download file                
+    } else {
+      //complete download file
+    }
+});
+```
+
 
 API Documentation
 -----------------
