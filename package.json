@@ -10,13 +10,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/bdhwan/node-kintone-vx.git"
+        "url": "https://github.com/bdhwan/kintone-node-vx.git"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/ueokande/node-kintone-vx/issues"
+        "url": "https://github.com/bdhwan/kintone-node-vx/issues"
     },
-    "homepage": "https://github.com/ueokande/node-kintone-vx#readme",
+    "homepage": "https://github.com/bdhwan/kintone-node-vx#readme",
     "devDependencies": {
         "chai": "^3.5.0",
         "eslint": "^3.3.1",
