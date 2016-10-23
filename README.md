@@ -1,7 +1,7 @@
 Node-kintone
 ============
 
-A Node.js wrapper for kintone API. from original kintone sdk (https://www.npmjs.com/package/kintone)
+A Node.js wrapper for kintone API. from original kintone sdk (https://github.com/ueokande/node-kintone)
 added upload, download file function
 
 
